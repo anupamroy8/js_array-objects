@@ -45,12 +45,12 @@ var fred = {
 
  7. Write one more line of code to change the first penguin's canFly property to the value true (overriding its existing value).
 
- 8.Call the sayHello method of the first penguin in your penguins array!
+ 8. Call the sayHello method of the first penguin in your penguins array!
 
- 9.Write a for loop to iterate through every penguin in the array and print the value of each penguin's name property to the console.
+ 9. Write a for loop to iterate through every penguin in the array and print the value of each penguin's name property to the console.
 
- 10.Write a for loop to call the sayHello method of every penguin in the array!
+ 10. Write a for loop to call the sayHello method of every penguin in the array!
 
- 11.Write a for loop to iterate through every penguin in the array, and add a new property to each penguin called numberOfFeet with the value 2
+ 11. Write a for loop to iterate through every penguin in the array, and add a new property to each penguin called numberOfFeet with the value 2
 
- 12.Write another for loop to iterate through every penguin in the array, and for each penguin that can fly, print to the console a message containing the penguin's name and " can fly!" -- for example, "Gunter can fly!" or "Ramón can fly!" (Don't do anything for the penguins that cannot fly.)
+ 12. Write another for loop to iterate through every penguin in the array, and for each penguin that can fly, print to the console a message containing the penguin's name and " can fly!" -- for example, "Gunter can fly!" or "Ramón can fly!" (Don't do anything for the penguins that cannot fly.)
