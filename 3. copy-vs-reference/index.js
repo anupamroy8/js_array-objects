@@ -139,15 +139,15 @@ let user3 = {
 };
 
 // Output of the below code and why?
-user.house === user2.house; // output: true, as both having same house.
-user.house == user2.house; // output: true, as both having same house.
-user.brothers === user2.brothers; // output: true, as both point to same array.
-user.brothers == user2.brothers; // output: true, as both point to same array.
-user.name == user2.name; // output: true, both are same.
-user.name === user2.name; // output: true, both are same.
-user.brothers == user3.brothers; // output: true, both are same.
-user.brothers === user3.brothers; // output: true, both are same.
-user.house === user2.house; // output true, both are same.
-user.house === user3.house; // output true, both are same.
-user.brothers[0] === user2.brothers[0]; // output true, both are pointing to same array.
-user.brothers[0] === user3.brothers[0]; // output true, both are pointing to same array.
+user.house === user2.house; // true, Both are primitive & of same value & type(string).
+user.house == user2.house; // true, Both are primitive & same value.
+user.brothers === user2.brothers; // true, Non-primitive data type. Both point to same array reference.
+user.brothers == user2.brothers; // true, Non-primitive data type. Both point to same array reference.
+user.name == user2.name; // true, Both are primitive & same value.
+user.name === user2.name; // true, Both are primitive & of same value & type(string).
+user.brothers == user3.brothers; // false, Non-primitive data type. Points to different array reference.
+user.brothers === user3.brothers; // false, Non-primitive data type. Points to different array reference.
+user.house === user2.house; // true, Both are primitive of same value & type(string).
+user.house === user3.house; // true, Both are primitive of same value & type(string)..
+user.brothers[0] === user2.brothers[0]; // true, Both as primitive & both point to same string in the array.
+user.brothers[0] === user3.brothers[0]; // true, Both as primitive & both are same string, even if the array is different.
